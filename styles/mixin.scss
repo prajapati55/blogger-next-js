@@ -1,0 +1,27 @@
+@import 'color';
+@import 'fonts';
+
+@mixin redText{
+    color: $redColor;
+}
+@mixin redBg{
+    background: $redColor;
+}
+@mixin greenText{
+    color: $greenColor;
+}
+@mixin greeBg{
+    background: $greenColor;
+}
+@mixin blackText{
+    color: $blackColor;
+}
+@mixin blackBg{
+    background: $blackColor;
+}
+@mixin whiteText{
+    color: $whiteColor;
+}
+@mixin whiteBg{
+    background: $whiteColor;
+}
